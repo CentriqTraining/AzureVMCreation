@@ -1,0 +1,21 @@
+To use the Azure Management Libraries for .NET
+You need to add the nuget package:
+Microsoft.Azure.Managment.Fluent
+
+Make sure you install the azure cli tools at:
+https://docs.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest
+
+Create your auth file automatically by following these instructions 
+adapted from this url:
+https://github.com/Azure/azure-libraries-for-net/blob/master/AUTH.md
+
+Login to your azure account using:
+az login
+
+Choose subscription with: (not case sensitive)
+az account set --subscription "{subscription name or guid}"
+
+Create Auth file with:
+az ad sp create-for-rbac --sdk-auth > my.auth
+
+Copy that auth file into Auth directory in project.

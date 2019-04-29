@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureVMCreation", "AzureVMCreation\AzureVMCreation.csproj", "{375B5C05-B797-4232-BFC8-44DAB05B5BA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureManagement", "AzureManagement\AzureManagement.csproj", "{E322DDE0-3647-481F-B5F9-FDEFD194D544}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6F0202D7-A2C3-4979-BE99-6E8761CA036F}"
+	ProjectSection(SolutionItems) = preProject
+		CreateVM.ps1 = CreateVM.ps1
+		READ.ME = READ.ME
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{375B5C05-B797-4232-BFC8-44DAB05B5BA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{375B5C05-B797-4232-BFC8-44DAB05B5BA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{375B5C05-B797-4232-BFC8-44DAB05B5BA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{375B5C05-B797-4232-BFC8-44DAB05B5BA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E322DDE0-3647-481F-B5F9-FDEFD194D544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E322DDE0-3647-481F-B5F9-FDEFD194D544}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E322DDE0-3647-481F-B5F9-FDEFD194D544}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E322DDE0-3647-481F-B5F9-FDEFD194D544}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89C991FC-4350-44F3-8ABA-BC5D0E106A07}
+	EndGlobalSection
+EndGlobal
